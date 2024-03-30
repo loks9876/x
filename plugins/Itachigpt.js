@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `*مرحباً بك في قسم الذكاء زورو بوت*\n𝑰𝒕𝒂𝒄𝒉𝒊 𝑩𝒐𝒕`;
+    throw `*مرحباً بك في قسم الذكاء زورو بوت*\zoro 𝑩𝒐𝒕`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
