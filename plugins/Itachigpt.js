@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { text, conn, usedPrefix, command }) => {
   if (!text && !(m.quoted && m.quoted.text)) {
-    throw `*مرحباً بك في قسم الذكاء ايتاتشي بوت*\n𝑰𝒕𝒂𝒄𝒉𝒊 𝑩𝒐𝒕`;
+    throw `*مرحباً بك في قسم الذكاء زورو بوت*\n𝑰𝒕𝒂𝒄𝒉𝒊 𝑩𝒐𝒕`;
   }
 
   if (!text && m.quoted && m.quoted.text) {
@@ -11,7 +11,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
   try {
     const { key } = await conn.sendMessage(m.chat, {
-      image: { url: 'https://telegra.ph/file/f59f5fcd503f48b5ae9c7.jpg' },
+      image: { url: 'https://telegra.ph/file/b4f5c7e9635607456de2c.jpg' },
       caption: '*يرجي الانتظار*'
     }, {quoted: m})
     conn.sendPresenceUpdate('composing', m.chat);
@@ -44,7 +44,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 
       const model = 'llama';
       const senderNumber = m.sender.replace(/[^0-9]/g, ''); 
-      const session = `𝑰𝒕𝒂𝒄𝒉𝒊 𝑩𝒐𝒕_${senderNumber}`;
+      const session = `zoro 𝑩𝒐𝒕_${senderNumber}`;
       const itachigpt = `https://ultimetron.guruapi.tech/gpt3?prompt=${prompt}`;
 
       let response = await fetch(itachigpt);
@@ -69,7 +69,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
 };
 handler.help = ['itachigpt']
 handler.tags = ['AI']
-handler.command = ['ايتاتشي'];
+handler.command = ['زورو'];
 //handler.limt = true||false
 //حسب انت جورو او بوت عادي
 //handler.gold = true||false
