@@ -12,7 +12,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
   try {
     const { key } = await conn.sendMessage(m.chat, {
       image: { url: 'https://telegra.ph/file/b4f5c7e9635607456de2c.jpg' },
-      caption: '*يرجي الانتظار*'
+      caption: '_*يرجي الانتظار زورو جالس يكتب*_'
     }, {quoted: m})
     conn.sendPresenceUpdate('composing', m.chat);
     const prompt = encodeURIComponent(text);
