@@ -11,7 +11,7 @@ this.sendPresenceUpdate('recording', m.chat)
 
 
       
-if (/^من انت$/i.test(m.text) && chat.audios) {  
+if (/^من_انت$/i.test(m.text) && chat.audios) {  
 if (!db.data.chats[m.chat].audios && m.isGroup) throw 0    
 let vn = './media/luffy.itashi.mp3'
 this.sendPresenceUpdate('recording', m.chat)   
