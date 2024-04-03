@@ -20,7 +20,7 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
     }
   } catch {
     enviando = false 
-    throw '*[❗] أشعر بالأسف، شيء سيئ من أجل الإبلاغ أو البحث عن شيء.*';
+    throw '*[❗] خطأ حط لينك النقابه الي عايز البوت فيها.*\n\n*—◉ مثل:*\n*◉ .انضم https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh*';
   }
 };
 handler.help = ['join [chat.whatsapp.com]'];
