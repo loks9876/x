@@ -25,6 +25,6 @@ const handler = async (m, {conn, text, isMods, isOwner, isPrems}) => {
 };
 handler.help = ['join [chat.whatsapp.com]'];
 handler.tags = ['premium'];
-handler.command = /^join|انضم$/i;
+handler.command = /^ادخل|انضم$/i;
 handler.private = true;
 export default handler;
