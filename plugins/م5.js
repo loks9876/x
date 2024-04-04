@@ -40,7 +40,8 @@ let love = `
 ♻️❯ ⏐ .فيديو3
 ☫ ⌟تنزيل فيديوهات من اليوتيوب⌜
 ⦓           ⦓🏆⦔          ⦔ـ
-https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh
+هذا هو قروب الدعم: https://chat.whatsapp.com/DbAGQvgPuaa2GkAYCVYEvy
+⦓           ⦓🏆⦔          ⦔ـ
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
