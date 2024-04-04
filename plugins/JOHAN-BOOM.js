@@ -58,7 +58,7 @@ TCP: معدل:42 -> ضرر:49
 
 handler.help = ['اختراق-كوني <الاسم>'];
 handler.tags = ['مرح'];
-handler.command = /^اخترق|اختراق-كوني|تفجير|مرح-كوني/i;
+handler.command = /^716716/i;
 
 export default handler;
 
