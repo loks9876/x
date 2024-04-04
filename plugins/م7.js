@@ -66,6 +66,7 @@ let love = `
 🕹️❯ ⏐ .قران
 ☫ ⌟لطرد الشياطين من القروب⌜
 ⦓           ⦓🏆⦔          ⦔ـ
+https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
