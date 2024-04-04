@@ -47,10 +47,11 @@ let love = `
 ☫ ⌟ليتم انضمام البوت لي جروبك⌜
 🍓❯ ⏐ .الـسـرعـه 
 ☫ ⌟يبعتلك سرعة البوت⌜
-⦓           ⦓🏆⦔          ⦔ـ
+⦓           ⦓🏆⦔          ⦔
+https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
 handler.tags = ['fun']
-handler.command = /^(|م2|م٢| )$/i
+handler.command = /^(|م2|م٢)$/i
 export default handler
