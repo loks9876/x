@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 }; 
 handler.help = ['menu'];
 handler.tags = ['menu'];
-handler.command = /^(اوامر|الاوامر|menu)$/i;
+handler.command = /^(.جميع_الاوامر)$/i;
 export default handler;
 function clockString(ms) {
   const h = isNaN(ms) ? '--' : Math.floor(ms / 3600000);
