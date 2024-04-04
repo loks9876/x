@@ -17,7 +17,8 @@ let love = `
 🧸❯ ⏐.انـمـي
 ☫ ⌟بحث عن الانمي بالانجليزي⌜
 ⦓           ⦓🏆⦔          ⦔ـ
-https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh
+هذا هو قروب الدعم: https://chat.whatsapp.com/DbAGQvgPuaa2GkAYCVYEvy
+⦓           ⦓🏆⦔          ⦔ـ
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
