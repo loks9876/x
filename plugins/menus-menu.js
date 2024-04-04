@@ -111,6 +111,7 @@ let str = `𝐿𝑈𝐹𝐹𝑌-𝐵𝛩𝑇
           🏆
 اكتب (.م11)
 ⦓           ⦓🏆⦔          ⦔ـ
+https://chat.whatsapp.com/LjRgVCKsIRyDI2k7ssq6Wh
 `.trim();
 
 conn.sendMessage(m.chat, {
