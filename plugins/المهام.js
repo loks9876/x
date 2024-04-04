@@ -66,5 +66,5 @@ let love = `
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
 handler.tags = ['fun']
-handler.command = /^(المهام)$/i
+handler.command = /^(2المهام)$/i
 export default handler
