@@ -18,7 +18,7 @@ let love = `
 🌏❯ ⏐ .احسب 
 ☫ ⌟للحل المعدلات الصعبه⌜ 
 ⦓           ⦓🏆⦔          ⦔
-هذا هو قروب الدعم: https://chat.whatsapp.com/DbAGQvgPuaa2GkAYCVYEvy
+هذا هو قروب الدعم: https://chat.whatsapp.com/IVc2CWdcWem6IEwtly5oA6
 ⦓           ⦓🏆⦔          ⦔ـ
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
