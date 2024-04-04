@@ -129,8 +129,7 @@ conn.sendMessage(m.chat, {
 }; 
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['م7.'] 
-
+handler.command = /^(م7)$/i
 export default handler
 function clockString(ms) {
     let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
