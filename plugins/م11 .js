@@ -21,9 +21,10 @@ let love = `
 👑❯ ⏐ .فتح | قفل برايفت
 ☫ ⌟يقفل و يفتح البرايفت⌜
 👑❯ ⏐ .فتح | قفل الصحين
-☫ ⌟يقفل و يفتح أمر الصحين⌜👑❯ ⏐فتح| قفل تقيد☫ ⌟يقفل و يفتح تقيد البوت⌜
+☫ ⌟يقفل و يفتح أمر الصحين
 ⦓           ⦓🏆⦔          ⦔ـ
-
+هذا هو قروب الدعم: https://chat.whatsapp.com/DbAGQvgPuaa2GkAYCVYEvy
+⦓           ⦓🏆⦔          ⦔ـ
  `.trim()
 m.reply(love, null, { mentions: conn.parseMention(love) })}
 handler.help = ['love']
