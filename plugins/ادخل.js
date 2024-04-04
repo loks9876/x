@@ -60,7 +60,7 @@ ${usedPrefix}اوامر
 }
 handler.help = ['join <chat.whatsapp.com> <dias>']
 handler.tags = ['owner']
-handler.command = ['join', '2أدخل'] 
+handler.command = ['join', '2انضم'] 
 
 //handler.owner = true
 
