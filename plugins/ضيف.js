@@ -47,12 +47,11 @@ let handler = async (m, { conn, text, participants }) => {
         //await conn.sendGroupV4Invite(m.chat, jid, invite_code, invite_code_exp, await conn.getName(m.chat), 'دعوة للانضمام إلى مجموعة WhatsApp الخاصة بي', jpegThumbnail)
     }
 }
-handler.help = ['add']
+handler.help = ['Add @user']
 handler.tags = ['group']
-handler.command = ['ضيف']
+handler.command = ['ضيف', 'اضف'] 
 handler.admin = true
 handler.group = true
-handler.rowner = true
 handler.botAdmin = true
 
 export default handler
