@@ -111,7 +111,7 @@ let str = `𝐿𝑈𝐹𝐹𝑌-𝐵𝛩𝑇
           🏆
 اكتب (.م11)
 ⦓           ⦓🏆⦔          ⦔ـ
-هذا هو قناة اكواد البوت:https://whatsapp.com/channel/0029VaTnpSDJpe8YtqXg0u2d
+هذا هو قناة اكواد البوت: https://whatsapp.com/channel/0029VaTnpSDJpe8YtqXg0u2d
 هذا هو قروب الدعم: https://chat.whatsapp.com/IVc2CWdcWem6IEwtly5oA6
 ⦓           ⦓🏆⦔          ⦔ـ
 `.trim();
